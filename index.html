@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="http://localhost:8089/auth/js/keycloak.js"></script>
+        <script src="/index.js"></script>
+        <title>testing</title>
+    </head>
+    <body onload="initKeycloak()">
+        <nav class="nav-bar">
+            <ul>
+                <li><p>Keycloak</p></li>
+            </ul>
+            <ul class="menu">
+                <li>Home</li>
+                <li>Service</li>
+                <li>Contact</li>
+                <li>About</li>
+                <li><label onclick="logout()">Log Out</label></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Welcome to my basic assainment</h2>
+        </main>
+    </body>
+</html>
