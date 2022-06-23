@@ -1,6 +1,6 @@
 {
     "realm": "Assainment",
-    "auth-server-url": "http://localhost:8089/auth/",
+    "auth-server-url": "https://mdmahfujarrahman.github.io/keycloak-assainment/auth/",
     "ssl-required": "external",
     "resource": "simpleassainment",
     "public-client": true,
